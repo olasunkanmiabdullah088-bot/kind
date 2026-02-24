@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    animation: slide 35s linear infinite;
+}
+
+div {
+    padding: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes slide {
+    0% {transform: translateX(0px);}
+    14% {transform: translateX(0px);}
+    17% {transform: translateX(-450px);}
+    31% {transform: translateX(-450px);}
+    34% {transform: translateX(-880px);}
+    48% {transform: translateX(-880px);}
+    52% {transform: translateX(-1310px);}
+    66% {transform: translateX(-1310px);}
+    69% {transform: translateX(-1740px);}
+    83% {transform: translateX(-1740px);}
+    86% {transform: translateX(-2170px);}
+    99% {transform: translateX(-2170px);}
+    100% {transform: translateX(0px);}
+    
+}

@@ -1,0 +1,151 @@
+h1 {
+    display: inline;
+}
+
+a {
+    display: block;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.box1 {
+    background-color: blue;
+    transform: translate(-100px -100px);
+}
+
+.box2 {
+    background-color: yellow;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: orange;
+}
+
+.box5 {
+    background-color: red;
+}
+
+.tailwind {
+    width: 50%;
+    height: 300px;
+    background-color: blue;  
+    padding: 25px;
+    padding-left: 200px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.tailwindimage {
+    width: 230px;
+    height: 200px;
+    margin-top: 25px;
+    animation: filter 5s linear infinite;
+}
+
+@keyframes filter {
+    0% {filter: blur(3px);}
+    12% {filter: blur(3px);}
+    15% {filter: blur(3px);}
+    27% {filter: brightness(5);}
+    30% {filter: brightness(5);}
+    42% {filter: grayscale(1);}
+    45% {filter: grayscale(1);}
+    57% {filter :contrast(15);}
+    60% {filter :contrast(15);}
+    72% {filter :saturate(100);}
+    75% {filter :saturate(100);}
+    87% {filter :sepia(1);}
+    90% {filter :sepia(1);}
+    100% {filter: blur(3px);}
+}
+
+.tract {
+    display: flex;
+    gap: 50px;
+    animation: caurosel 5s linear infinite;}
+
+
+.tract div {
+    height: 250px;
+    width: 250px;
+    flex-shrink: 0;
+    background-color: #0d1422;
+    border: 1px solid blue;
+    opacity: 0.2;
+}
+
+@keyframes caurosel {
+    0% {transform: translateX(-275px);}
+    12% {transform: translateX(-275px);}
+    15% {transform: translateX(-275px);}
+    27% {transform: translateX(-575px);}
+    30% {transform: translateX(-575px);}
+    42% {transform: translateX(-875px);}
+    45% {transform: translateX(-875px);}
+    57% {transform: translateX(-1175px);}
+    60% {transform: translateX(-1175px);}
+    72% {transform: translateX(-1475px);}
+    75% {transform: translateX(-1475px);}
+    87% {transform: translateX(-1775px);}
+    90% {transform: translateX(-1775px);}
+    100% {transform: translateX(-275px);}
+}
+
+.flipbox {
+    height: 100px;
+    width: 100px;
+    perspective: 1000px;
+}
+
+.flip-inner {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: linear all 0.5  ;
+}
+
+.front {
+    background-color: green;
+}
+
+.back {
+    background-color: red;
+    transform: rotateY(180deg)
+}
+
+.front  {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back {
+     height: 200px;
+    width: 200px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+ .flip-inner:hover {
+    transform: rotateY(180deg);
+} 
+

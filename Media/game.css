@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0; 
+} 
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+header button {
+    height: 35px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+main {
+    height: 550px;
+    width: 100%;
+    background-image: url(KeyArt_Oceania_3840x2160\ \(2\).jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.center-image {
+    width: 25%;
+}
+
+.center-button {
+    width: 12%;
+    height: 60px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    transition: all 1s linear;
+}
+
+.center-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.center-button:active {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border: 5px solid white;
+    width: 100%;
+}
+
+.hero {
+    background-color: #0D1422;
+    width: 100%;
+    height:150px ;
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+
+.hero1 {
+    background-color: #0D1422;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+
+.hero2 video {
+    height:320px;
+    width: 100%;
+}
+
+.hero2 h3 {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.hero2 p {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder; 
+    margin-left: 20px;
+}
+
+.hero3 video {
+    height: 320px;
+    width: 100%;
+}
+
+.hero3 h3 {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+
+.hero3 p {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.hero4 video {
+    border-radius: 65px;
+    height: 320px;
+    width: 100%;
+}
+
+.hero4 h3 {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.hero4 p {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.hero5 video {
+    border-radius: 65px;
+    height: 320px;
+    width: 100%;
+}
+
+.hero5 h3 {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.hero5 p {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder; 
+    margin-left: 20px;
+}
+
+.juky1 {
+    background-image: url(promo-bg\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.juky1 button {
+    height: 55px;
+    width: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #131622;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.jukytext {
+    margin-top: 130px;
+    margin-right: 70px;
+}
+
+.jukyimg {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.lag {
+    background-image:url(second-promo-landscape.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+.lag button {
+    height: 55px;
+    width: 160px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #131622;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.lag button:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.lagimg {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.lag h1 {
+    color: white;
+    width: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 110px;
+}
+
+.lag h3 {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size:26px;
+
+}
+
+.lag p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.animation {
+    background-image: url(quote_bg\ \(2\).jpg);
+    width: 100%;
+    height: 230px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.animation div {
+    text-align: center;
+    width: 40%;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    animation: textchange  6s linear infinite;
+}
+
+.animation div:nth-child(0) {
+    animation-delay: 0s;
+}
+.animation div:nth-child(1) {
+    animation-delay: 2s;
+}
+.animation div:nth-child(2) {
+    animation-delay: 4s;
+}
+
+@keyframes textchange {
+    0% {opacity: 0}
+    35% {opacity: 1;}
+    45% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+.gridbox {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+    background-color: black;
+}
+
+.gridbox div {
+    background-color: white;
+}
+
+.abj {
+    background-color: #0D1422;
+    width: 100%;
+    height:100% ;
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+
+.med {
+    background-color: #0D1422;
+}
+
+.media {
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.but1 {
+    margin: 40px;
+    width: 6%;
+    height: 25px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    position: sticky;
+    left: 83%;
+}
+
+.but1:hover {
+    background-color: white;
+    color: black;
+}
+
+.but2 {
+    margin: 40px;
+    width: 6%;
+    height: 25px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    position: sticky;
+    left: 90%;
+} 
+
+.but2:hover {
+    background-color: white;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    padding: 20px;
+    background-color: #0D1422;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "a a b b" 
+    "a a b b";
+    gap: 20px;
+}
+
+
+.a {
+    grid-column: a;
+    grid-row: a;
+}
+
+.b {
+    grid-column: b;
+    grid-row: b;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.grid div {
+    color: #0D1422;
+    padding: 15;
+    margin: auto;
+    width: 100%;
+    gap: 20px;
+}
+
+.sixth-part {
+    background-image: url(G2G-Background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 80px 120px;
+    background-position: center;
+}
+
+.inner-part4{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.game-picture3 img{
+   height: 51px;
+   margin-bottom: 25px;
+}
+
+.join{
+    max-width: 350px;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-weight: bold;
+
+}
+
+.logo-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px white solid;
+    padding: 2px;
+    color: white;
+    gap: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo-three:hover {
+    background-color: white;
+    color: black;
+    transition: 3s linear all;
+
+}
+
+.logo-three img {
+    width:50px;
+}
+
+.inner-text {
+    font-size: 14px;
+}
+
+.lastpart {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+    background-color:#13223F ;
+    padding: 120px 180px;
+}
+
+.lastimage2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    gap: 50px;
+}
+.img1 {
+    width: 15%;
+}
+.img2 {
+    width: 15%;
+}
+
+.lastpart  hr{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.lastpart p {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.lastlink {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 35px;
+    margin-bottom: 40px;
+    margin-top:35px;
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+    gap: 25px;
+}
+
+.lastlogo {
+    width: 10%;
+    display: flex;
+    margin-bottom: 35px;
+    gap: 25px
+}
+
+.logo1 {
+    width: 20%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
+}
+
+.toogle {
+    display: flex;
+    align-items: center;
+    border: 1.5px white solid;
+    padding: 10px 25px;
+    color: white;
+    gap: 22px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+.toogle img {
+    width: 35px;
+}
+
+.privacy p {
+    font-weight: 200;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.privacy p:hover {
+    text-decoration: underline;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px  solid black;
+    padding: 2px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 275px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: white 0.5px 0.5px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.last img {
+    height: 97px;
+}
+
+.last p {
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.go {
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    color: #13223F;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+

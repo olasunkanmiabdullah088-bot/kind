@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img {
+    width: 80px
+}
+
+.text {
+    gap: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 90);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size:17px;
+    font-weight: bolder;
+    margin-left: 75px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffef6;
+    gap: 30px;
+}
+
+.hero-item h1 {
+    color: rgb(0, 0, 90);
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 64px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:80px;
+    margin-bottom:150px;
+    line-height: 80px;
+    font-weight: 700;
+
+}
+
+.hero-item p {
+    color: black;
+    height: 18px;;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-bottom:80px;
+    margin-left: 24px;
+    font-weight: 400px;
+
+    
+}
+
+.hero-item button {
+    height: 45px;
+    width: 120px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:24px ;
+    margin-bottom: 270px;
+    border: none;
+    font-weight: 600; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 2px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    gap: 40px;
+    margin-left: 75px;
+    margin-top: -75px;
+}
+
+.item1 img {
+    width: 60%;
+}
+
+.item2 img {
+    width: 60%;
+}
+
+.item3 img  {
+    width: 60%;
+}
+
+.item1 h1 {
+    color: rgb(0, 0, 90);
+    margin-top: 12px;
+}
+
+.item2 h1 {
+    color: rgb(0, 0, 90);
+    margin-top: 12px;
+}
+
+.item3 h1 {
+    color: rgb(0, 0, 90);
+    margin-top: 12px;
+}
+
+.item1 p {
+    font-size: 19px;
+    color: rgb(102, 101, 101);
+    width: 50%;
+    margin-top: 10px;
+}
+
+.item2 p {
+    font-size: 19px;
+    color: rgb(102, 101, 101);
+    width: 52%;
+    margin-top: 10px;
+}
+
+.item3 p {
+    font-size: 19px;
+    color: rgb(102, 101, 101);
+    width: 51%;
+    margin-top: 10px;
+}
+
+.item1 a {
+    text-decoration: underline;
+    color: rgb(0, 0, 90);
+}
+
+.item2 a {
+    text-decoration: underline;
+    color: rgb(0, 0, 90);
+}
+
+.item3 a {
+    text-decoration: underline;
+    color: rgb(0, 0, 90);
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #C8C4BD;
+}
+
+h1 {
+    margin-top: 25px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-slide {
+    display: flex;
+    gap: 20px;
+    animation: slide 20s linear infinite;
+    /* margin-left: 30px; */
+}
+
+.picture-slide img {
+    height: 300px;
+    width: 250px;
+}
+
+
+
+
+@keyframes slide {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(0px);}
+    25% {transform: translateX(-250px);}
+    40% {transform: translateX(-250px);}
+    45% {transform: translateX(-520px);}
+    60% {transform: translateX(-520px);}
+    65% {transform: translateX(-790px);}
+    80% {transform: translateX(-790px);}
+    85% {transform: translateX(-1060px);}
+    /* 98% {transform: translateX(-1250px);} */
+    100% {transform: translateX(-250px);}
+}

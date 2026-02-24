@@ -1,0 +1,21 @@
+.paragraph {
+    color: red;
+    font-size: 50px;
+    /* text-align: justify; */
+    text-indent: 40px;
+    text-shadow: 2px 2px 2px red;
+    font-weight: bold;
+    /* text-decoration: underline blue wavy;
+    line-height: 60px;
+    word-spacing: 30px;
+    letter-spacing: 10px; */
+    text-transform: lowercase;
+    -webkit-text-stroke: 5px green;
+    -webkit-animation: infinite;
+    
+}
+
+.text {
+    color: blue;
+    font-size: 80px;
+}

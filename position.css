@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-box {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.first-box>img {
+    width: 18%;
+    position: absolute;
+    left: 40%;
+    top: 150px;
+}
+
+.first-box>h1 {
+    position: absolute;
+    left:45%;
+    top: 30px;
+}
+
+.first-box>u {
+    position: absolute;
+    top: 70px;
+    left: 38%;
+    width: 320px;
+    padding: 3px;
+    color: black;
+    background-color:rgb(133, 133, 91);
+    border: none;
+    border-radius: 1px;
+}
+
+
+.english {
+    text-align: center;
+    position: absolute;
+    left: 33%;
+    top: 100px;
+}
+
+.deutsch {
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 200px;
+}
+
+.francais {
+    text-align: center;
+    position: absolute;
+    left: 29%;
+    top: 280px;
+}
+
+.italiano {
+   text-align: center;
+    position: absolute;
+    left: 34%;  
+    top: 350px;
+}
+
+.polski {
+    text-align: center;
+    position: absolute;
+    left:39% ;  
+    top: 410px;
+}
+
+.chinese {
+    text-align: center;
+    position: absolute;
+    right:33% ;  
+    top: 100px;
+}
+
+.lang1 {
+    text-align: center;
+    position: absolute;
+    right:30% ;  
+    top: 200px;
+}
+
+.lang2 {
+    text-align: center;
+    position: absolute;
+    right:29% ;  
+    top: 280px;
+}
+
+.espanol {
+    text-align: center;
+    position: absolute;
+    right:34% ;  
+    top: 350px;
+
+}
+
+.lang3 {
+    text-align: center;
+    position: absolute;
+    right:39% ;  
+    top: 410px;
+}
+
+.but {
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    font-weight: 600;
+    left: 42%;
+    top: 470px;
+    color: black;
+    background-color:rgb(133, 133, 91);
+    border: none;
+}
+
+.p {
+    font-size: 17px;
+    left: 32%;
+    top: 515px;
+    color: black;
+    position: absolute;
+    right: 42%;
+    width: 42%;
+}

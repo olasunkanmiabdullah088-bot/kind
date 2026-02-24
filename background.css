@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin:  0;
+}
+
+.container {
+    color: rgb(255, 251, 251);
+    height: 80vh;
+    background-size: cover;
+    background-repeat:repeat-y;
+    background-attachment: fixed; 
+}
+
+div {
+    margin: 50px 20px;
+    background: radial-gradient(circle, blue, red);
+    border: 5px solid green;
+    box-shadow: 0 0 5px 5px  black;
+}

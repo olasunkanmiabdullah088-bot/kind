@@ -913,14 +913,15 @@ footer>nav {
 .comp a { 
     width: 100%;
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     color: #3D4F60;
     text-decoration: none;
     line-height: 2;
+
 }
 
 .comp a:hover {
-    color: blue;
+    color:#0F60D6;
     text-decoration: underline;
 }
 
@@ -999,7 +1000,7 @@ footer>nav {
 
 .add {
     text-decoration: none;
-    width: 120%;
+    width: 100%;
     color: #3D4F60;
 }
 
@@ -1014,7 +1015,7 @@ footer>nav {
 }
 
 .ress:hover {
-    color: #0000FF;
+    color: #0F60D6;
 }
 
 .email  {
